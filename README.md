@@ -15,7 +15,7 @@
         "city": "Anytown",
         "zip": "12345"
     },
-    "skills": ["programming"", "design", "writing"]
+    "skills": ["programming", "design", "writing"]
 }
 ```
 
