@@ -5,7 +5,8 @@
 ## Пример использования:
 
 **JSON-данные**
-```string json = @"
+```csharp
+string json = @"
 {
     ""name"": ""John Doe"",
     ""age"": 30,
@@ -16,10 +17,12 @@
         ""zip"": ""12345""
     },
     ""skills"": [""programming"", ""design"", ""writing""]
-}";```
+}";
+```
 
 **Ожидаемый словарь на выходе**
-```Dictionary<string, object> ожидаемыйСловарь = new Dictionary<string, object>
+```csharp
+Dictionary<string, object> ожидаемыйСловарь = new Dictionary<string, object>
 {
     { "name", "John Doe" },
     { "age", 30 },
@@ -28,4 +31,5 @@
     { "address.city", "Anytown" },
     { "address.zip", "12345" },
     { "skills", new List<string> { "programming", "design", "writing" } }
-};```
+};
+```
