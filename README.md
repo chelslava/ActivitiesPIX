@@ -49,48 +49,49 @@
 ### CSV файл
 ```
 Name;Age;City
-John;30;New York
-Alice;25;Los Angeles
-Bob;35;Chicago
+John;12;Уфа
+Alice;15;Краснодар
+Bob;40;Москва
 ```
 
 ### JSON файл (результат конвертации)
 
 ```json
 [
-    {
-        "Name": "John",
-        "Age": 30,
-        "City": "New York"
-    },
-    {
-        "Name": "Alice",
-        "Age": 25,
-        "City": "Los Angeles"
-    },
-    {
-        "Name": "Bob",
-        "Age": 35,
-        "City": "Chicago"
-    }
+  {
+    "Name": "John",
+    "Age": "12",
+    "City": "Уфа"
+  },
+  {
+    "Name": "Alice",
+    "Age": "15",
+    "City": "Краснодар"
+  },
+  {
+    "Name": "Bob",
+    "Age": "40",
+    "City": "Москва"
+  }
 ]
 ```
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <Data>
-  <Row>
-    <Name>John</Name>
-    <Age>30</Age>
-    <City>New York</City>
-  </Row>
-  <Row>
-    <Name>Alice</Name>
-    <Age>25</Age>
-    <City>Los Angeles</City>
-  </Row>
-  <Row>
-    <Name>Bob</Name>
-    <Age>35</Age>
-    <City>Chicago</City>
-  </Row>
+	<Row>
+		<Name>John</Name>
+		<Age>12</Age>
+		<City>Уфа</City>
+	</Row>
+	<Row>
+		<Name>Alice</Name>
+		<Age>15</Age>
+		<City>Краснодар</City>
+	</Row>
+	<Row>
+		<Name>Bob</Name>
+		<Age>40</Age>
+		<City>Москва</City>
+	</Row>
 </Data>
 ```
