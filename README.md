@@ -7,15 +7,15 @@
 **JSON-данные**
 ```json
 {
-    ""name"": ""John Doe"",
-    ""age"": 30,
-    ""isStudent"": false,
-    ""address"": {
-        ""street"": ""123 Main St"",
-        ""city"": ""Anytown"",
-        ""zip"": ""12345""
+    "name": "John Doe",
+    "age": 30,
+    "isStudent": false,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "zip": "12345"
     },
-    ""skills"": [""programming"", ""design"", ""writing""]
+    "skills": ["programming"", "design", "writing"]
 }
 ```
 
