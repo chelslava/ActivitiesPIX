@@ -57,7 +57,21 @@ Bob;35;Chicago
 ### JSON файл (результат конвертации)
 
 ```json
-[  {    "Name": "John",    "Age": 30,    "City": "New York"  },  {    "Name": "Alice",    "Age": 25,    "City": "Los Angeles"  },  {    "Name": "Bob",    "Age": 35,    "City": "Chicago"  }]
+[
+{
+        "Name": "John",
+        "Age": 30,
+        "City": "New York"
+    }, {
+        "Name": "Alice",
+        "Age": 25,
+        "City": "Los Angeles"
+    }, {
+        "Name": "Bob",
+        "Age": 35,
+        "City": "Chicago"
+    }
+]
 ```
 ```xml
 <Data>
