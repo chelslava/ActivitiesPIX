@@ -20,8 +20,7 @@
 ```
 
 **Ожидаемый словарь на выходе**
-```csharp
-Dictionary<string, object> ожидаемыйСловарь = new Dictionary<string, object>
+```
 {
     { "name", "John Doe" },
     { "age", 30 },
@@ -30,5 +29,5 @@ Dictionary<string, object> ожидаемыйСловарь = new Dictionary<str
     { "address.city", "Anytown" },
     { "address.zip", "12345" },
     { "skills", new List<string> { "programming", "design", "writing" } }
-};
+}
 ```
