@@ -58,15 +58,17 @@ Bob;35;Chicago
 
 ```json
 [
-{
+    {
         "Name": "John",
         "Age": 30,
         "City": "New York"
-    }, {
+    },
+    {
         "Name": "Alice",
         "Age": 25,
         "City": "Los Angeles"
-    }, {
+    },
+    {
         "Name": "Bob",
         "Age": 35,
         "City": "Chicago"
