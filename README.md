@@ -5,8 +5,7 @@
 ## Пример использования:
 
 **JSON-данные**
-```csharp
-string json = @"
+```json
 {
     ""name"": ""John Doe"",
     ""age"": 30,
@@ -17,7 +16,7 @@ string json = @"
         ""zip"": ""12345""
     },
     ""skills"": [""programming"", ""design"", ""writing""]
-}";
+}
 ```
 
 **Ожидаемый словарь на выходе**
