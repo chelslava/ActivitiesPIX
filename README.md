@@ -4,8 +4,8 @@
 
 ## Пример использования:
 
-// JSON-данные
-string json = @"
+**JSON-данные**
+```string json = @"
 {
     ""name"": ""John Doe"",
     ""age"": 30,
@@ -16,10 +16,10 @@ string json = @"
         ""zip"": ""12345""
     },
     ""skills"": [""programming"", ""design"", ""writing""]
-}";
+}";```
 
-// Ожидаемый словарь на выходе
-Dictionary<string, object> ожидаемыйСловарь = new Dictionary<string, object>
+**Ожидаемый словарь на выходе**
+```Dictionary<string, object> ожидаемыйСловарь = new Dictionary<string, object>
 {
     { "name", "John Doe" },
     { "age", 30 },
@@ -28,4 +28,4 @@ Dictionary<string, object> ожидаемыйСловарь = new Dictionary<str
     { "address.city", "Anytown" },
     { "address.zip", "12345" },
     { "skills", new List<string> { "programming", "design", "writing" } }
-};
+};```
