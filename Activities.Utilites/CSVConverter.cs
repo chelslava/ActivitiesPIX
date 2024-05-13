@@ -44,11 +44,13 @@ namespace Namespace_Utilites
         [IsOut]
         public bool Success { get; set; }
 
-        public override void Execute(int? optionID)
+        public override void Execute(int? optionId)
         {
             try
             {
-                switch (OutputFormat.ToLower())
+                string outputFormat = OutputFormat.ToLower();
+
+                switch (outputFormat)
                 {
                     case "json":
                         ConvertCsvToJson();
@@ -57,7 +59,7 @@ namespace Namespace_Utilites
                         ConvertCsvToXml();
                         break;
                     default:
-                        throw new ArgumentException("Unsupported output format.");
+                        throw new ArgumentException("Unsupported output format: " + outputFormat);
                 }
 
                 Success = true;
@@ -68,6 +70,7 @@ namespace Namespace_Utilites
                 throw new Exception($"Error during conversion: {ex.Message}", ex);
             }
         }
+
 
         private void ConvertCsvToJson()
         {
@@ -82,7 +85,6 @@ namespace Namespace_Utilites
                     var obj = new JObject();
                     for (int i = 0; i < headers.Length && i < values.Length; i++)
                     {
-                        // Используйте имена заголовков из CSV в качестве ключей для объекта JSON
                         obj[headers[i]] = values[i];
                     }
                     return obj;
@@ -117,45 +119,33 @@ namespace Namespace_Utilites
         // Метод для получения символа-разделителя на основе выбранного типа разделителя
         private char GetDelimiterChar(TypeDelimiter delimiterType)
         {
-            switch (delimiterType)
+            return delimiterType switch
             {
-                case TypeDelimiter.Comma:
-                    return ',';
-                case TypeDelimiter.Semicolon:
-                    return ';';
-                case TypeDelimiter.Tab:
-                    return '\t';
-                case TypeDelimiter.Caret:
-                    return '^';
-                case TypeDelimiter.Pipe:
-                    return '|';
-                default:
-                    throw new ArgumentException("Unsupported delimiter type.");
-            }
+                TypeDelimiter.Comma => ',',
+                TypeDelimiter.Semicolon => ';',
+                TypeDelimiter.Tab => '\t',
+                TypeDelimiter.Caret => '^',
+                TypeDelimiter.Pipe => '|',
+                _ => throw new ArgumentException("Unsupported delimiter type.")
+            };
         }
-
         // Метод для получения объекта кодировки на основе выбранного типа кодировки
         private Encoding GetEncoding(TypeEncoding encodingType)
         {
-            switch (encodingType)
+            return encodingType switch
             {
-                case TypeEncoding.ASCII:
-                    return Encoding.ASCII;
-                case TypeEncoding.UTF7:
-                    return Encoding.UTF7;
-                case TypeEncoding.UTF8:
-                    return Encoding.UTF8;
-                case TypeEncoding.UTF32:
-                    return Encoding.UTF32;
-                case TypeEncoding.Default:
-                    return Encoding.Default;
-                case TypeEncoding.ANSI:
-                    return Encoding.Default; // ANSI соответствует Default
-                case TypeEncoding.Windows1251:
-                    return Encoding.GetEncoding(1251); // Кодировка Windows-1251
-                default:
-                    throw new ArgumentException("Unsupported encoding type.");
-            }
+                TypeEncoding.ASCII => Encoding.ASCII,
+                TypeEncoding.UTF7 => Encoding.UTF7,
+                TypeEncoding.UTF8 => Encoding.UTF8,
+                TypeEncoding.UTF32 => Encoding.UTF32,
+                TypeEncoding.Default => Encoding.Default,
+                TypeEncoding.ANSI => Encoding.Default,
+                TypeEncoding.Windows1251 => Encoding.GetEncoding(1251),
+                _ => throw new ArgumentException("Unsupported encoding type.")
+            };
         }
+
+
+
     }
 }
