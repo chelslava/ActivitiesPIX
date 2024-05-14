@@ -72,54 +72,72 @@ namespace Activities.Utilites.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
-        internal static string CsvDelimiter_Description {
+        internal static string Delimiter_Description {
             get {
-                return ResourceManager.GetString("CsvDelimiter_Description", resourceCulture);
+                return ResourceManager.GetString("Delimiter_Description", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Ищет локализованную строку, похожую на Разделитель.
         /// </summary>
-        internal static string CsvDelimiter_ScreenName {
+        internal static string Delimiter_ScreenName {
             get {
-                return ResourceManager.GetString("CsvDelimiter_ScreenName", resourceCulture);
+                return ResourceManager.GetString("Delimiter_ScreenName", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
-        internal static string EncodingType_Description {
+        internal static string Encoding_Description {
             get {
-                return ResourceManager.GetString("EncodingType_Description", resourceCulture);
+                return ResourceManager.GetString("Encoding_Description", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на EncodingType.
+        ///   Ищет локализованную строку, похожую на Encoding.
         /// </summary>
-        internal static string EncodingType_ScreenName {
+        internal static string Encoding_ScreenName {
             get {
-                return ResourceManager.GetString("EncodingType_ScreenName", resourceCulture);
+                return ResourceManager.GetString("Encoding_ScreenName", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Входной файл данных в формате CSV..
+        ///   Ищет локализованную строку, похожую на Входной файл.
         /// </summary>
-        internal static string InputCsvFile_Description {
+        internal static string InputFile_Description {
             get {
-                return ResourceManager.GetString("InputCsvFile_Description", resourceCulture);
+                return ResourceManager.GetString("InputFile_Description", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Ищет локализованную строку, похожую на Input.
         /// </summary>
-        internal static string InputCsvFile_ScreenName {
+        internal static string InputFile_ScreenName {
             get {
-                return ResourceManager.GetString("InputCsvFile_ScreenName", resourceCulture);
+                return ResourceManager.GetString("InputFile_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string InputFormat_Description {
+            get {
+                return ResourceManager.GetString("InputFormat_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на InputFormat.
+        /// </summary>
+        internal static string InputFormat_ScreenName {
+            get {
+                return ResourceManager.GetString("InputFormat_ScreenName", resourceCulture);
             }
         }
         
@@ -165,6 +183,24 @@ namespace Activities.Utilites.Properties {
         internal static string OutputConvertedFile_ScreenName {
             get {
                 return ResourceManager.GetString("OutputConvertedFile_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string OutputFile_Description {
+            get {
+                return ResourceManager.GetString("OutputFile_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на OutputFile.
+        /// </summary>
+        internal static string OutputFile_ScreenName {
+            get {
+                return ResourceManager.GetString("OutputFile_ScreenName", resourceCulture);
             }
         }
         

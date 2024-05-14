@@ -1,4 +1,8 @@
-﻿namespace Namespace_Utilites
+﻿using System;
+using System.IO;
+using System.Text;
+
+namespace Namespace_Utilites
 {
     public enum TypeEncoding
     {

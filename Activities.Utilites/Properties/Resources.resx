@@ -135,22 +135,22 @@
   <data name="CSVConverter_ScreenName" xml:space="preserve">
     <value>SCV Конвертер</value>
   </data>
-  <data name="CsvDelimiter_Description" xml:space="preserve">
+  <data name="Delimiter_Description" xml:space="preserve">
     <value />
   </data>
-  <data name="CsvDelimiter_ScreenName" xml:space="preserve">
+  <data name="Delimiter_ScreenName" xml:space="preserve">
     <value>Разделитель</value>
   </data>
-  <data name="EncodingType_Description" xml:space="preserve">
+  <data name="Encoding_Description" xml:space="preserve">
     <value />
   </data>
-  <data name="EncodingType_ScreenName" xml:space="preserve">
-    <value>EncodingType</value>
+  <data name="Encoding_ScreenName" xml:space="preserve">
+    <value>Encoding</value>
   </data>
-  <data name="InputCsvFile_Description" xml:space="preserve">
-    <value>Входной файл данных в формате CSV.</value>
+  <data name="InputFile_Description" xml:space="preserve">
+    <value>Входной файл</value>
   </data>
-  <data name="InputCsvFile_ScreenName" xml:space="preserve">
+  <data name="InputFile_ScreenName" xml:space="preserve">
     <value>Input</value>
   </data>
   <data name="OutputConvertedFile_Description" xml:space="preserve">
@@ -170,5 +170,17 @@
   </data>
   <data name="Success_ScreenName" xml:space="preserve">
     <value>Success</value>
+  </data>
+  <data name="InputFormat_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InputFormat_ScreenName" xml:space="preserve">
+    <value>InputFormat</value>
+  </data>
+  <data name="OutputFile_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OutputFile_ScreenName" xml:space="preserve">
+    <value>OutputFile</value>
   </data>
 </root>
