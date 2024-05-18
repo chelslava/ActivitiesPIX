@@ -6,10 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ClosedXML" Version="0.102.2" />
     <PackageReference Include="EPPlus" Version="7.1.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="OfficeOpenXml.Core.ExcelPackage" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Core.dll">
