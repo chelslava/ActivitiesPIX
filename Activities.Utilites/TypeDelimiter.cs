@@ -1,4 +1,4 @@
-﻿namespace Namespace_Utilites
+﻿namespace Activities.Utilities
 {
     public enum TypeDelimiter
     {

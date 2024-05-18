@@ -133,7 +133,7 @@
     <value />
   </data>
   <data name="CSVConverter_ScreenName" xml:space="preserve">
-    <value>SCV Конвертер</value>
+    <value>CSV Конвертер</value>
   </data>
   <data name="Delimiter_Description" xml:space="preserve">
     <value />
@@ -182,5 +182,38 @@
   </data>
   <data name="OutputFile_ScreenName" xml:space="preserve">
     <value>OutputFile</value>
+  </data>
+  <data name="ExcelReadRange_FirstRowIsHeader_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExcelReadRange_FirstRowIsHeader_ScreenName" xml:space="preserve">
+    <value>Первая строка в Excel является заголовком</value>
+  </data>
+  <data name="ExcelReadRange_Range_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExcelReadRange_Range_ScreenName" xml:space="preserve">
+    <value>Диапазон</value>
+  </data>
+  <data name="Excel_FileName_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Excel_FileName_ScreenName" xml:space="preserve">
+    <value>Путь к файлу Excel</value>
+  </data>
+  <data name="SettingFileCombined_ScreenName" xml:space="preserve">
+    <value>Excel в Словарь</value>
+  </data>
+  <data name="SettingFile_DataResult_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingFile_DataResult_ScreenName" xml:space="preserve">
+    <value>Словарь</value>
+  </data>
+  <data name="SettingFile_Mode_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingFile_Mode_ScreenName" xml:space="preserve">
+    <value>Режим</value>
   </data>
 </root>

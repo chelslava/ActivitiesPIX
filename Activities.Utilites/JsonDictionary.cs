@@ -1,12 +1,12 @@
 using BR.Core.Attributes;
-using Activities.Utilites.Properties;
+using Activities.Utilities.Properties;
 using Newtonsoft.Json.Linq;
 
-namespace Namespace_Utilites
+namespace Activities.Utilities
 {
     // Класс, представляющий активность для чтения JSON-файла и преобразования его содержимого в словарь
     [LocalizableScreenName(nameof(Resources.JsonDictionary_ScreenName), typeof(Resources))]
-    [BR.Core.Attributes.Path("Utilites")]
+    [BR.Core.Attributes.Path("Utilities")]
     public class JsonDictionary : BR.Core.Activity
     {
         // Путь к файлу JSON, который нужно прочитать и преобразовать
@@ -33,7 +33,7 @@ namespace Namespace_Utilites
             try
             {
                 // Чтение содержимого JSON-файла
-                string jsonText = System.IO.File.ReadAllText(Patch);
+                string jsonText = File.ReadAllText(Patch);
 
                 // Преобразование JSON в словарь
                 Dict_Out = DeserializeJsonToDictionary(jsonText);

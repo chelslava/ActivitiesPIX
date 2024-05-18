@@ -1,4 +1,4 @@
-﻿using Activities.Utilites.Properties;
+﻿using Activities.Utilities.Properties;
 using BR.Core;
 using BR.Core.Attributes;
 using Newtonsoft.Json.Linq;
@@ -6,10 +6,10 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace Namespace_Utilites
+namespace Activities.Utilities
 {
     [LocalizableScreenName("CSVConverter_ScreenName", typeof(Resources))]
-    [BR.Core.Attributes.Path("Utilites")]
+    [BR.Core.Attributes.Path("Utilities")]
     public class CSVConverter : Activity
     {
         [LocalizableScreenName("InputCsvFile_ScreenName", typeof(Resources))]

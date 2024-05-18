@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Activities.Utilites.Properties {
+namespace Activities.Utilities.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Activities.Utilites.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Activities.Utilites.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Activities.Utilities.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace Activities.Utilites.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на SCV Конвертер.
+        ///   Ищет локализованную строку, похожую на CSV Конвертер.
         /// </summary>
         internal static string CSVConverter_ScreenName {
             get {
@@ -102,6 +102,60 @@ namespace Activities.Utilites.Properties {
         internal static string Encoding_ScreenName {
             get {
                 return ResourceManager.GetString("Encoding_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string Excel_FileName_Description {
+            get {
+                return ResourceManager.GetString("Excel_FileName_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Путь к файлу Excel.
+        /// </summary>
+        internal static string Excel_FileName_ScreenName {
+            get {
+                return ResourceManager.GetString("Excel_FileName_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ExcelReadRange_FirstRowIsHeader_Description {
+            get {
+                return ResourceManager.GetString("ExcelReadRange_FirstRowIsHeader_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Первая строка в Excel является заголовком.
+        /// </summary>
+        internal static string ExcelReadRange_FirstRowIsHeader_ScreenName {
+            get {
+                return ResourceManager.GetString("ExcelReadRange_FirstRowIsHeader_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string ExcelReadRange_Range_Description {
+            get {
+                return ResourceManager.GetString("ExcelReadRange_Range_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Диапазон.
+        /// </summary>
+        internal static string ExcelReadRange_Range_ScreenName {
+            get {
+                return ResourceManager.GetString("ExcelReadRange_Range_ScreenName", resourceCulture);
             }
         }
         
@@ -237,6 +291,51 @@ namespace Activities.Utilites.Properties {
         internal static string Patch_ScreenName {
             get {
                 return ResourceManager.GetString("Patch_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SettingFile_DataResult_Description {
+            get {
+                return ResourceManager.GetString("SettingFile_DataResult_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Словарь.
+        /// </summary>
+        internal static string SettingFile_DataResult_ScreenName {
+            get {
+                return ResourceManager.GetString("SettingFile_DataResult_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
+        internal static string SettingFile_Mode_Description {
+            get {
+                return ResourceManager.GetString("SettingFile_Mode_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Режим.
+        /// </summary>
+        internal static string SettingFile_Mode_ScreenName {
+            get {
+                return ResourceManager.GetString("SettingFile_Mode_ScreenName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Excel в Словарь.
+        /// </summary>
+        internal static string SettingFileCombined_ScreenName {
+            get {
+                return ResourceManager.GetString("SettingFileCombined_ScreenName", resourceCulture);
             }
         }
         
